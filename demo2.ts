@@ -114,7 +114,7 @@ let person = {
         alert(`hint: ${hint}`);
         return hint == "string" ? `{name: "${this.name}"}` : this.age;
     },
-    
+
     /*
         if [Symbol.toPrimitive]() not exist toString is called for string
         if toString not exist valueOf is called
